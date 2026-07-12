@@ -38,7 +38,7 @@ Optional: get a free API token at courtlistener.com (Profile → API) and
 (realistic-looking citations to cases that have never existed). The verifier
 should verify the real four and flag the three fakes.
 
-## Honest limitations (v0.1)
+## Limitations (v0.1)
 
 - Skips short-form citations (`Id.`, `supra`) — only full case citations checked
 - `NOT_FOUND` ≠ proof of hallucination: could be a very new case, a typo'd
