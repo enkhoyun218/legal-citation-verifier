@@ -46,9 +46,3 @@ should verify the real four and flag the three fakes.
 - Doesn't yet check whether a real case actually *says* what the brief claims
   (quote/holding verification — the harder and more interesting problem, planned next)
 - CourtListener coverage is strongest for federal and appellate courts
-
-## Roadmap
-
-- [ ] Quote verification: does the cited case contain the quoted language?
-- [ ] Holding check: retrieve opinion text, compare against the claimed proposition
-- [ ] Failure catalog: document where the verifier itself fails (false alarms, misses)
